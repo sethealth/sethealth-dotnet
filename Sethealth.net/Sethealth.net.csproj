@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <Authors>pabloelisseo</Authors>
-    <TargetFramework>net5.0</TargetFramework>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
     <AssemblyName>Sethealth.net</AssemblyName>
     <PackageId>Sethealth.net</PackageId>
     <AssemblyTitle>Sethealth.net</AssemblyTitle>

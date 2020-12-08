@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "2165L6KPF9hmc+OhGt9M+hqCKI39IzqreJu9HmHOvvSabEuTiymJ1uLO9/GFBlL7+VMhVrmgcmRkg3gebc660A==",
+  "dgSpecHash": "z05CO/H64TrxgWCfTTNQNJCrIxZ5kLf237SLfF41wVrLdKuM5ivmkF9mnUhxqCJwfxkZFqT/D9if5xaSJKHsXg==",
   "success": true,
   "projectFilePath": "/home/pabloelisseo/repos/sethealth-dotnet/Sethealth.net/Sethealth.net.csproj",
   "expectedPackageFiles": [
-    "/home/pabloelisseo/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512"
+    "/home/pabloelisseo/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512",
+    "/home/pabloelisseo/.nuget/packages/microsoft.netcore.app.ref/3.1.0/microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "/home/pabloelisseo/.nuget/packages/microsoft.aspnetcore.app.ref/3.1.8/microsoft.aspnetcore.app.ref.3.1.8.nupkg.sha512"
   ],
   "logs": []
 }
