@@ -1,0 +1,14 @@
+/home/pabloelisseo/repos/sethealth-dotnet/Sethealth.net/bin/Release/net5.0/Sethealth.net.deps.json
+/home/pabloelisseo/repos/sethealth-dotnet/Sethealth.net/bin/Release/net5.0/Sethealth.net.dll
+/home/pabloelisseo/repos/sethealth-dotnet/Sethealth.net/bin/Release/net5.0/ref/Sethealth.net.dll
+/home/pabloelisseo/repos/sethealth-dotnet/Sethealth.net/bin/Release/net5.0/Sethealth.net.pdb
+/home/pabloelisseo/repos/sethealth-dotnet/Sethealth.net/obj/Release/net5.0/Sethealth.net.csprojAssemblyReference.cache
+/home/pabloelisseo/repos/sethealth-dotnet/Sethealth.net/obj/Release/net5.0/Sethealth.net.GeneratedMSBuildEditorConfig.editorconfig
+/home/pabloelisseo/repos/sethealth-dotnet/Sethealth.net/obj/Release/net5.0/Sethealth.net.AssemblyInfoInputs.cache
+/home/pabloelisseo/repos/sethealth-dotnet/Sethealth.net/obj/Release/net5.0/Sethealth.net.AssemblyInfo.cs
+/home/pabloelisseo/repos/sethealth-dotnet/Sethealth.net/obj/Release/net5.0/Sethealth.net.csproj.CoreCompileInputs.cache
+/home/pabloelisseo/repos/sethealth-dotnet/Sethealth.net/obj/Release/net5.0/Sethealth.net.dll
+/home/pabloelisseo/repos/sethealth-dotnet/Sethealth.net/obj/Release/net5.0/ref/Sethealth.net.dll
+/home/pabloelisseo/repos/sethealth-dotnet/Sethealth.net/obj/Release/net5.0/Sethealth.net.pdb
+/home/pabloelisseo/repos/sethealth-dotnet/Sethealth.net/bin/Release/net5.0/Sethealth.net.xml
+/home/pabloelisseo/repos/sethealth-dotnet/Sethealth.net/obj/Release/net5.0/Sethealth.net.xml

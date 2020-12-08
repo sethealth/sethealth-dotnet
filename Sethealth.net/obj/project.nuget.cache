@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "2165L6KPF9hmc+OhGt9M+hqCKI39IzqreJu9HmHOvvSabEuTiymJ1uLO9/GFBlL7+VMhVrmgcmRkg3gebc660A==",
+  "success": true,
+  "projectFilePath": "/home/pabloelisseo/repos/sethealth-dotnet/Sethealth.net/Sethealth.net.csproj",
+  "expectedPackageFiles": [
+    "/home/pabloelisseo/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

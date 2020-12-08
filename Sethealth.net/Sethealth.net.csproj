@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Authors>pabloelisseo</Authors>
+    <TargetFramework>net5.0</TargetFramework>
+    <AssemblyName>Sethealth.net</AssemblyName>
+    <PackageId>Sethealth.net</PackageId>
+    <AssemblyTitle>Sethealth.net</AssemblyTitle>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+</Project>

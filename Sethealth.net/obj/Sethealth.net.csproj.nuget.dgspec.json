@@ -1,0 +1,66 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/pabloelisseo/repos/sethealth-dotnet/Sethealth.net/Sethealth.net.csproj": {}
+  },
+  "projects": {
+    "/home/pabloelisseo/repos/sethealth-dotnet/Sethealth.net/Sethealth.net.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/pabloelisseo/repos/sethealth-dotnet/Sethealth.net/Sethealth.net.csproj",
+        "projectName": "Sethealth.net",
+        "projectPath": "/home/pabloelisseo/repos/sethealth-dotnet/Sethealth.net/Sethealth.net.csproj",
+        "packagesPath": "/home/pabloelisseo/.nuget/packages/",
+        "outputPath": "/home/pabloelisseo/repos/sethealth-dotnet/Sethealth.net/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/pabloelisseo/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
