@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "wkNPmC8hEKvA56pxpttC+W9qaOy0K0MSa7vgWD6fTul3eKVLclkK0PH13shMDzXQKprGWTn6M0FNEp6iMFWa5A==",
+  "dgSpecHash": "x5MJ6B6U+9mRFRKudZ55WIXa2B1cXgR+5tvWsHdH7jMCFFiNoK9a89CEO34PKBFvCg/Oyi3seQExG0+50V+ufw==",
   "success": true,
   "projectFilePath": "/home/pabloelisseo/repos/sethealth-dotnet/SethealthTests/SethealthTests.csproj",
   "expectedPackageFiles": [
@@ -87,7 +87,9 @@
     "/home/pabloelisseo/.nuget/packages/system.threading.tasks.extensions/4.3.0/system.threading.tasks.extensions.4.3.0.nupkg.sha512",
     "/home/pabloelisseo/.nuget/packages/system.threading.timer/4.3.0/system.threading.timer.4.3.0.nupkg.sha512",
     "/home/pabloelisseo/.nuget/packages/system.xml.readerwriter/4.3.0/system.xml.readerwriter.4.3.0.nupkg.sha512",
-    "/home/pabloelisseo/.nuget/packages/system.xml.xdocument/4.3.0/system.xml.xdocument.4.3.0.nupkg.sha512"
+    "/home/pabloelisseo/.nuget/packages/system.xml.xdocument/4.3.0/system.xml.xdocument.4.3.0.nupkg.sha512",
+    "/home/pabloelisseo/.nuget/packages/microsoft.netcore.app.ref/3.1.0/microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "/home/pabloelisseo/.nuget/packages/microsoft.aspnetcore.app.ref/3.1.8/microsoft.aspnetcore.app.ref.3.1.8.nupkg.sha512"
   ],
   "logs": []
 }
