@@ -15,6 +15,8 @@
             It will automatically get the Sethealth credentials from the
             <c>"SETHEALTH_KEY"</c> and <c>"SETHEALTH_SECRET"</c> environment variables.
             </summary>
+            <exception cref="T:Sethealth.InputException">Thrown when SETHEALTH_KEY or SETHEALTH_SECRET
+            is missing.</exception>
         </member>
         <member name="M:Sethealth.Client.#ctor(System.String,System.String)">
             <summary>
@@ -22,6 +24,8 @@
             </summary>
             <param name="key"> Sethealth's API key.</param>
             <param name="secret"> Sethealth's API secret.</param>
+            <exception cref="T:Sethealth.InputException">Thrown when key or secret
+            is missing or empty string.</exception>
         </member>
         <member name="P:Sethealth.Client.key">
             <summary>
@@ -38,6 +42,8 @@
             This method creates a new short-living token to be used by client side.
             </summary>
             <returns>A <c>GetTokenResponse</c> instance that contains the new token created.</returns>
+            <exception cref="T:Sethealth.AuthException">Thrown when SETHEALTH_KEY or SETHEALTH_SECRET
+            is/are wrong and the authentification fails.</exception>
         </member>
         <member name="M:Sethealth.Client.GetToken(Sethealth.GetTokenOptions)">
             <summary>
@@ -45,6 +51,8 @@
             </summary>
             <param name="opts"> Token options.</param>
             <returns>A <c>GetTokenResponse</c> instance that contains the new token created.</returns>
+            <exception cref="T:Sethealth.AuthException">Thrown when SETHEALTH_KEY or SETHEALTH_SECRET
+            is/are wrong and the authentification fails.</exception>
         </member>
         <member name="T:Sethealth.GetTokenOptions">
             <summary>
@@ -113,6 +121,63 @@
             <summary>
             Sethealth's token string
             </summary>
+        </member>
+        <member name="T:Sethealth.AuthException">
+            <summary>
+            Thrown when SETHEALTH_KEY or SETHEALTH_SECRET
+            is/are wrong and the authentification fails.
+            </summary>
+        </member>
+        <member name="M:Sethealth.AuthException.#ctor">
+            <summary>
+            Creates a new instance of AuthException. Used 
+            when SETHEALTH_KEY or SETHEALTH_SECRET
+            is/are wrong and the authentification fails
+            </summary>
+        </member>
+        <member name="M:Sethealth.AuthException.#ctor(System.String)">
+            <summary>
+            Creates a new instance of AuthException. Used 
+            when SETHEALTH_KEY or SETHEALTH_SECRET
+            is/are wrong and the authentification fails
+            </summary>
+            <param name="message"> Exceptions message.</param>
+        </member>
+        <member name="M:Sethealth.AuthException.#ctor(System.String,System.Exception)">
+            <summary>
+            Creates a new instance of AuthException. Used 
+            when SETHEALTH_KEY or SETHEALTH_SECRET
+            is/are wrong and the authentification fails
+            </summary>
+            <param name="message"> Exceptions message.</param>
+            <param name="inner"> Inner exception.</param>
+        </member>
+        <member name="T:Sethealth.InputException">
+            <summary>
+            This exception should be thrown when the input is
+            empty or badly-formatted.
+            </summary>
+        </member>
+        <member name="M:Sethealth.InputException.#ctor">
+            <summary>
+            Creates a new instance of InputException. Used 
+            when the input is empty or badly-formatted.
+            </summary>
+        </member>
+        <member name="M:Sethealth.InputException.#ctor(System.String)">
+            <summary>
+            Creates a new instance of InputException. Used 
+            when the input is empty or badly-formatted.
+            </summary>
+            <param name="message"> Exceptions message.</param>
+        </member>
+        <member name="M:Sethealth.InputException.#ctor(System.String,System.Exception)">
+            <summary>
+            Creates a new instance of InputException. Used 
+            when the input is empty or badly-formatted.
+            </summary>
+            <param name="message"> Exceptions message.</param>
+            <param name="inner"> Inner exception.</param>
         </member>
     </members>
 </doc>

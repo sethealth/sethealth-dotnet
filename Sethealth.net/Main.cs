@@ -1,4 +1,4 @@
-﻿﻿using System;
+﻿using System;
 using System.Text;
 using System.Net.Http;
 using System.Threading.Tasks;
@@ -267,7 +267,7 @@ namespace Sethealth
         public InputException(string message) : base(message)
         {
         }
-         /// <summary>
+        /// <summary>
         /// Creates a new instance of InputException. Used 
         /// when the input is empty or badly-formatted.
         /// </summary>
