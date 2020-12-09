@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <Version>0.0.3</Version>
+    <Version>0.0.4</Version>
     <Title>Sethealth API client</Title>
     <Description>Sethealth.net is a sync/async .NET client that allows to access the backend sethealth API from a server.</Description>
     <AssemblyTitle>Sethealth.net</AssemblyTitle>
