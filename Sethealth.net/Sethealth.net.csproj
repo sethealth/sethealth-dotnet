@@ -1,10 +1,10 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
+    <Version>0.0.3</Version>
     <Title>Sethealth API client</Title>
     <Description>Sethealth.net is a sync/async .NET client that allows to access the backend sethealth API from a server.</Description>
     <AssemblyTitle>Sethealth.net</AssemblyTitle>
-    <Version>0.0.1</Version>
     <Authors>pabloelisseo</Authors>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <AssemblyName>Sethealth.net</AssemblyName>
@@ -22,7 +22,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3">
+    </PackageReference>
+
   </ItemGroup>
 
   <ItemGroup>

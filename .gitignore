@@ -1,3 +1,5 @@
 .vscode
 SethealthConsole
-
+*/bin
+*/obj
+*.nupkg
