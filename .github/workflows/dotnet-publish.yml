@@ -31,7 +31,7 @@ jobs:
           VERSION_FILE_PATH: Sethealth.net/Sethealth.net.csproj
 
           # Regex pattern to extract version info in a capturing group
-          VERSION_REGEX: (?<=<Version>).*(?=</Version>)
+          VERSION_REGEX: ^\s*<Version>(.*)<\/Version>\s*$
 
           # API key to authenticate with NuGet server
           NUGET_KEY: ${{secrets.NUGET_API_KEY}}
