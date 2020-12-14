@@ -60,8 +60,8 @@ using Sethealth;
 
 # Credentials
 var apiKey = "HERE THE API KEY";
-var apiKey = "HERE THE API SECRET";
-var client = new Client();
+var apiSecret = "HERE THE API SECRET";
+var client = new Client(apiKey, apiSecret);
 
 # Ask for a short-living access token
 GetTokenResponse response = await client.GetToken();
