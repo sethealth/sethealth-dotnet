@@ -8,24 +8,26 @@ This "long-living" credentials can be used instead to create short-living creden
 
 ## Install
 
+The package can be found at the [Nuget Gallery](https://www.nuget.org/packages/Sethealth.net/)
+
 ### .NET cli
 ```
-dotnet add package Sethealth.net
+dotnet add package Sethealth.net --version X.X.X
 ```
 
 ### Package Manager
 ```
-PM> Install-Package Sethealth.net -Version 0.0.4
+PM> Install-Package Sethealth.net -Version X.X.X
 ```
 
 ### Package Reference
 ```
-<PackageReference Include="Sethealth.net" Version="0.0.4" />
+<PackageReference Include="Sethealth.net" Version="X.X.X" />
 ```
 
 ### Package CLI
 ```
-paket add Sethealth.net --version 0.0.4
+paket add Sethealth.net --version X.X.X
 ```
 
 ## Usage
