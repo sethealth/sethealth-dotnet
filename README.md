@@ -76,4 +76,4 @@ Console.WriteLine("ACCESS TOKEN {0}", response.token);
 ## Release
 
 1. Update version in Sethealth.net/Sethealth.net.csproj
-2. Run `make prep.release`
+2. Run `make release`
